@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALxJREFUSEvtlUEKwjAQRd+/iyDodTyK7gQVBBdexesoeJovFittbGya0K6a9cx/M5M/iRj5aGR9pgXY3gBnYJnZ2RPYS7rV+a0ObN+BVaZ4nfaQtI4BXChepUv6Fh52MAPmEaV5rMhFzeQmzvYBOBbbtAtgewtcP8CTpApUwYIqevcgBPwTLwb0iRcBUsSzAaniWQBgF7vQLhOXPNctt8Q2JAS8P5wLsOhZqSTxnxGl7emwqGn/5GG1pUW/AMX6bBnn2dS5AAAAAElFTkSuQmCC" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+    <title>Word counter</title>
+</head>
+<body>
+    <h1>Word counter</h1>
+    <i class='bx bxs-moon' id="change" style="font-size: 24px;"></i>
+   
+    <div class="container">
+        <textarea placeholder="Enter your text here ..."></textarea>
+        <div class="output-container">
+            <div class="output">
+                <p class="words">Words</p>
+                <span data-word-count>0</span>
+            </div>
+            <div class="output">
+                <p class="characters">Characters</p>
+                <span data-character-count>0</span>
+            </div>
+            <div class="output">
+                <p class="sentances">Sentances</p>
+                <span data-sentence-count>0</span>
+            </div>
+            <div class="output">
+                <p class="paragraphs">Paragraphs</p>
+                <span data-paragraph-count>0</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
